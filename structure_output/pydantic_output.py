@@ -52,3 +52,10 @@ However, performance can slow down slightly when running heavy apps or games, an
 Overall, the Nova X10 is a well-balanced mid-range smartphone that offers good value for everyday users, especially those who prioritize design, display, and battery life.""")
 
 print(result)
+
+to_json = result.model_dump_json()
+
+with open("structured_output.json", "w") as f:
+    f.write(to_json)
+
+print("Structured output saved to structured_output.json")

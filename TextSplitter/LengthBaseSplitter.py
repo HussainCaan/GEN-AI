@@ -13,7 +13,7 @@ pages = loader.load()
 
 splitter = CharacterTextSplitter(
     chunk_size=500,
-    chunk_overlap=0,
+    chunk_overlap=10, # Advantage of overlap is some context is carried forward to next chunk. i-e may be the context pass on to next chunk.
     separator=''
 )
 result = splitter.split_documents(pages)

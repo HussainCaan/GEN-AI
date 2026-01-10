@@ -1,5 +1,5 @@
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
+from langchain_text_splitters import RecursiveCharacterTextSplitter # Mostly used for splitting text where semantic understanding is required. Because it uses different levels of separators to split text which helps in retaining context.
+ 
 
 text = """LangChain is a framework for developing applications powered by language models. It can be used for chatbots, Generative Question-Answering (GQA), summarization, and much more.
         

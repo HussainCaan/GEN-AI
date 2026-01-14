@@ -25,3 +25,8 @@ python-dotenv
 scikit-learn
 numpy
 pandas
+
+# PDF text extraction
+pdfplumber
+pdfminer.six
+PyMuPDF
